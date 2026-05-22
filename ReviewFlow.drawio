@@ -1,97 +1,556 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Страница-1" id="3oOwhHI46nYs-xn37SUH">
-    <mxGraphModel dx="1585" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EBEEFF" math="0" shadow="0">
+    <mxGraphModel dx="2346" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EBEEFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cKr0UfIj2bystI-hUPgn-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="Посетитель сайта (User)" vertex="1">
-          <mxGeometry height="749" width="194" x="91" y="20" as="geometry" />
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Наш Backend API&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="820" width="100" x="1330" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="Сайт клиента (Client Website)" vertex="1">
-          <mxGeometry height="749" width="232" x="335" y="20" as="geometry" />
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Наш CDN (хранилище скриптов)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="820" width="100" x="1220" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="Твой CDN (widget.js)" vertex="1">
-          <mxGeometry height="749" width="169" x="617" y="20" as="geometry" />
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Сайт Клиента&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="820" width="100" x="1110" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="Твой API (Backend)" vertex="1">
-          <mxGeometry height="749" width="157" x="836" y="20" as="geometry" />
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Посетитель (Браузер)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="820" width="100" x="970" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="База данных (Database)" vertex="1">
-          <mxGeometry height="749" width="191" x="1392" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-32" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-27" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-28" value="Запрос страницы (GET /)">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="328" y="129" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-5" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Зашел на страницу товара&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="180" as="sourcePoint" />
+            <mxPoint x="1160" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-33" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-27" value="HTML страницы">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="331" y="183" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-6" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-5" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-7" edge="1" parent="1" style="endArrow=none;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;startArrow=classic;startFill=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Отдал HTML-код страницы&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="240" as="sourcePoint" />
+            <mxPoint x="1160" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-34" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-27" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-29" value="Запрос скрипта widget.js">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="453" y="237" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-8" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-7" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-9" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;" value="2" vertex="1">
+          <mxGeometry relative="1" x="-0.95" y="10" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-35" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-27" value="Файл widget.js">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="456" y="291" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-10" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Дай мне файл widget.js&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="290" as="sourcePoint" />
+            <mxPoint x="1269.5" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-36" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-27" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-30" value="GET /reviews?api_key=XYZ">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="345" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-11" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-10" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-12" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;" value="3" vertex="1">
+          <mxGeometry relative="1" x="-0.984" y="11" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-37" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-30" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-31" value="SELECT tenant_id FROM widgets WHERE api_key = &#39;XYZ&#39;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1210" y="399" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-13" edge="1" parent="1" style="endArrow=none;endFill=0;html=1;align=left;verticalAlign=top;rounded=0;startArrow=blockThin;startFill=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Вот твой файл JS&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="330" as="sourcePoint" />
+            <mxPoint x="1269.5" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-38" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-31" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-30" value="tenant_id (или ошибка)">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1213" y="453" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-14" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-13" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="&lt;div&gt;4&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-15" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;GET /widget-data?id=XYZ&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="369.84999999999997" as="sourcePoint" />
+            <mxPoint x="1379.5" y="369.84999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-39" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-30" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-31" value="SELECT * FROM reviews WHERE widget_id = ... AND status = &#39;approved&#39;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1210" y="507" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-16" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-15" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-17" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;" value="5" vertex="1">
+          <mxGeometry relative="1" x="-0.984" y="11" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-40" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-31" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-30" value="Список отзывов">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1213" y="561" />
-            </Array>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" value="БД" vertex="1">
+          <mxGeometry height="875" width="100" x="1850" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-31" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;strokeColor=#028090;fontColor=light-dark(#000000,#000000);fillColor=#F45B69;labelBackgroundColor=none;fontSize=9;" value="&lt;span style=&quot;color: light-dark(rgb(228, 253, 225), rgb(255, 255, 255));&quot;&gt;бизнес-процесс регистрации&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="414.29" width="1700" x="970" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-32" parent="2g7fAVNn1hhI9duUfhxG-31" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=#FF3333;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="админ" vertex="1">
+          <mxGeometry height="274.29" width="1700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-36" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="60" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-37" parent="2g7fAVNn1hhI9duUfhxG-32" style="text;whiteSpace=wrap;html=1;fontColor=#E4FDE1;align=center;labelBackgroundColor=none;fontStyle=1" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Решил установить отзывы&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="20" y="-5" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-38" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Регистрация (Email)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-41" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Выбирает цвет кнопок и шрифт&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="630" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-48" edge="1" parent="2g7fAVNn1hhI9duUfhxG-32" source="2g7fAVNn1hhI9duUfhxG-36" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#000000;fontColor=default;fillColor=#F45B69;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-38" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="60" y="59.999999999999936" as="sourcePoint" />
+            <mxPoint x="130" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-41" edge="1" parent="1" source="cKr0UfIj2bystI-hUPgn-30" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="cKr0UfIj2bystI-hUPgn-27" value="JSON с отзывами">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-86" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;div&gt;Ввод разрешенных доменов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-87" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="Пользователь копирует код и вставляет себе на сайт" vertex="1">
+          <mxGeometry height="80" width="120" x="1280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-46" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-148" parent="2g7fAVNn1hhI9duUfhxG-32" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Конец процесса (Success)&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1590" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-85" parent="2g7fAVNn1hhI9duUfhxG-32" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;div&gt;Выбор тарифа&lt;/div&gt;&lt;div&gt;(этап привязки карты, оплата)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="950" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-261" edge="1" parent="2g7fAVNn1hhI9duUfhxG-32" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.497;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-262" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="563" y="615" />
+              <mxPoint x="490" y="130" />
             </Array>
+            <mxPoint x="490" y="100" as="sourcePoint" />
+            <mxPoint x="490.0799999999999" y="162.77999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKr0UfIj2bystI-hUPgn-42" parent="1" style="fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=none;" value="Рендеринг HTML/CSS виджета на странице" vertex="1">
-          <mxGeometry height="49" width="337" x="20" y="635" as="geometry" />
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-33" parent="2g7fAVNn1hhI9duUfhxG-32" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=#FF3333;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Frontend&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="124.29" width="1700" y="150" as="geometry" />
         </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-40" parent="2g7fAVNn1hhI9duUfhxG-33" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Показать конструктор виджета&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="630" y="22.14" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-265" edge="1" parent="2g7fAVNn1hhI9duUfhxG-40" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-86" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="-42" />
+            </Array>
+            <mxPoint x="-50" y="37.47999999999979" as="sourcePoint" />
+            <mxPoint x="110" y="37.47999999999979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-44" parent="2g7fAVNn1hhI9duUfhxG-33" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Показать код для вставки (например, &lt;/span&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;&amp;lt;script src=&#39;...&#39;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-93" parent="2g7fAVNn1hhI9duUfhxG-33" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1;fontSize=10;" value="Отправить письмо с подтверждением" vertex="1">
+          <mxGeometry height="40" width="90" x="220" y="22.14" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-92" edge="1" parent="2g7fAVNn1hhI9duUfhxG-33" source="2g7fAVNn1hhI9duUfhxG-38" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.447;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="220.0000000000002" y="-19.76000000000012" as="sourcePoint" />
+            <mxPoint x="220.35999999999987" y="144.05000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-146" parent="2g7fAVNn1hhI9duUfhxG-33" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Запрос получен&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1460" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-169" parent="2g7fAVNn1hhI9duUfhxG-33" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1;fontSize=10;" value="Отправить письмо повторно" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="84.29" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-250" parent="2g7fAVNn1hhI9duUfhxG-33" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="экран ошибки оплаты" vertex="1">
+          <mxGeometry height="80" width="120" x="950" y="22.1400000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-147" edge="1" parent="2g7fAVNn1hhI9duUfhxG-33" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" target="2g7fAVNn1hhI9duUfhxG-46" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1410" y="184.36" as="sourcePoint" />
+            <mxPoint x="1680" y="-64.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-262" parent="2g7fAVNn1hhI9duUfhxG-33" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;div&gt;Проверка валидности&lt;/div&gt;&lt;div&gt;&amp;nbsp;доменов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-264" parent="2g7fAVNn1hhI9duUfhxG-33" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="ок" vertex="1">
+          <mxGeometry height="24.29" width="50" x="480" y="99.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-266" parent="2g7fAVNn1hhI9duUfhxG-33" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="не ок" vertex="1">
+          <mxGeometry height="24.29" width="50" x="560" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-104" edge="1" parent="2g7fAVNn1hhI9duUfhxG-32" source="2g7fAVNn1hhI9duUfhxG-40" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-41" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="670" y="180" as="sourcePoint" />
+            <mxPoint x="730" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-108" edge="1" parent="2g7fAVNn1hhI9duUfhxG-32" source="2g7fAVNn1hhI9duUfhxG-44" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-87" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="90" />
+            </Array>
+            <mxPoint x="980" y="59.51999999999998" as="sourcePoint" />
+            <mxPoint x="1140" y="59.51999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-254" edge="1" parent="2g7fAVNn1hhI9duUfhxG-32" source="2g7fAVNn1hhI9duUfhxG-250" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-85" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="960" y="90" as="sourcePoint" />
+            <mxPoint x="1120" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-34" parent="2g7fAVNn1hhI9duUfhxG-31" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=#FF3333;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Backend&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="1700" y="294.29" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-39" parent="2g7fAVNn1hhI9duUfhxG-34" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Создать запись в таблице Users и Tenants и Widgets&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-42" parent="2g7fAVNn1hhI9duUfhxG-34" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Обновить настройки в таблицу Widgets,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;активация сбора аналитики&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="780" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-43" parent="2g7fAVNn1hhI9duUfhxG-34" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;labelBackgroundColor=none;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Сгенерировать уникальный код&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-88" parent="2g7fAVNn1hhI9duUfhxG-34" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=light-dark(#E4FDE1,#FFFFFF);fillColor=#F45B69;" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;span style=&quot;&quot;&gt;Ожидание первого хита (запроса) от виджета&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1290" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-89" parent="2g7fAVNn1hhI9duUfhxG-34" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;div&gt;Подтверждение email&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="130" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-96" parent="2g7fAVNn1hhI9duUfhxG-34" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="нет" vertex="1">
+          <mxGeometry height="40" width="90" x="80" y="31.420000000000037" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-98" edge="1" parent="2g7fAVNn1hhI9duUfhxG-34" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-86" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="-74" />
+            </Array>
+            <mxPoint x="310" y="59.680000000000064" as="sourcePoint" />
+            <mxPoint x="420" y="-204.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-99" parent="2g7fAVNn1hhI9duUfhxG-34" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="да" vertex="1">
+          <mxGeometry height="40" width="90" x="281" y="31.420000000000073" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-249" parent="2g7fAVNn1hhI9duUfhxG-34" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="оплата прошла успешно?" vertex="1">
+          <mxGeometry height="80" width="180" x="930" y="20.00000000000007" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-252" parent="2g7fAVNn1hhI9duUfhxG-34" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="нет" vertex="1">
+          <mxGeometry height="40" width="90" x="890" y="31.420000000000073" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-255" edge="1" parent="2g7fAVNn1hhI9duUfhxG-34" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0.002;entryY=0.522;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1109.76" y="59.96000000000008" as="sourcePoint" />
+            <mxPoint x="1159.9999999999998" y="59.86999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-256" parent="2g7fAVNn1hhI9duUfhxG-34" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);align=center;labelBackgroundColor=none;fontStyle=1" value="да" vertex="1">
+          <mxGeometry height="28.58" width="90" x="1070" y="31.42" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-267" parent="2g7fAVNn1hhI9duUfhxG-34" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;shadow=1;" value="&lt;div&gt;регистрация&amp;nbsp;&lt;/div&gt;&lt;div&gt;инструкции&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="320" y="-54.28999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-107" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-43" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0.464;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.464;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-44" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1060" y="264.50000000000006" as="sourcePoint" />
+            <mxPoint x="1090" y="264.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-109" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-87" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.421;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-88" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1140" y="190" as="sourcePoint" />
+            <mxPoint x="1300" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-103" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-39" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-40" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="330.28999999999996" />
+            </Array>
+            <mxPoint x="650" y="348" as="sourcePoint" />
+            <mxPoint x="810" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-105" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-41" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-42" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="110" />
+              <mxPoint x="910" y="180" />
+            </Array>
+            <mxPoint x="820" y="79.47000000000003" as="sourcePoint" />
+            <mxPoint x="980" y="79.47000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-248" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-42" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-85" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="200" />
+            </Array>
+            <mxPoint x="590" y="110" as="sourcePoint" />
+            <mxPoint x="750" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-251" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-249" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-250" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="870" y="110" as="sourcePoint" />
+            <mxPoint x="1030" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-259" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-85" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2g7fAVNn1hhI9duUfhxG-249" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="80" />
+              <mxPoint x="1100" y="290" />
+              <mxPoint x="1020" y="290" />
+            </Array>
+            <mxPoint x="900" y="330" as="sourcePoint" />
+            <mxPoint x="1060" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-263" edge="1" parent="2g7fAVNn1hhI9duUfhxG-31" source="2g7fAVNn1hhI9duUfhxG-262" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.075;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-39" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="460" y="180" as="sourcePoint" />
+            <mxPoint x="620" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-56" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Redis (Cache)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="810" width="100" x="1550" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-64" edge="1" parent="1" source="2g7fAVNn1hhI9duUfhxG-1" style="endArrow=classic;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;entryX=0.487;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-173" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;GET widget_bundle:XYZ&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550" y="370" />
+              <mxPoint x="1570" y="370" />
+            </Array>
+            <mxPoint x="1420" y="374.5" as="sourcePoint" />
+            <mxPoint x="1599.5" y="374.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-65" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-64" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-66" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;" value="6" vertex="1">
+          <mxGeometry relative="1" x="-0.984" y="11" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-149" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;div&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Экран ожидания подтверждения&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1030" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-95" edge="1" parent="1" source="2g7fAVNn1hhI9duUfhxG-89" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="2g7fAVNn1hhI9duUfhxG-149" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1340" />
+            </Array>
+            <mxPoint x="1010" y="1310" as="sourcePoint" />
+            <mxPoint x="1090" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-161" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Analytics DB (ClickHouse)&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="865" width="100" x="1960" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-164" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span style=&quot;font-style: italic;&quot; class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Бэкенд сначала проверяет кеш, и только при miss (промахе) идет в основную БД&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;.&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1500" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-165" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;POST /event {type: &quot;view&quot;, widget_id: &quot;XYZ&quot;}&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1020" y="810" as="sourcePoint" />
+            <mxPoint x="1379.5" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-173" parent="1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="" vertex="1">
+          <mxGeometry height="100" width="50" x="1550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-174" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;в Redis пусто (Cache Miss)&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="1590" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-175" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;в Redis есть данные&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="1590" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-176" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" target="2g7fAVNn1hhI9duUfhxG-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1740" y="320" />
+              <mxPoint x="1740" y="500" />
+            </Array>
+            <mxPoint x="1690" y="320" as="sourcePoint" />
+            <mxPoint x="1460" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-202" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot; style=&quot;color: light-dark(rgb(8, 9, 8), rgb(0, 0, 0));&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;LPUSH analytics_queue {event_data}&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="1380" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-203" edge="1" parent="1" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" target="2g7fAVNn1hhI9duUfhxG-56" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1380" y="810" as="sourcePoint" />
+            <mxPoint x="1540" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-204" edge="1" parent="1" style="fontSize=12;html=1;endArrow=none;endFill=0;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;startArrow=classicThin;startFill=1;dashed=1;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="830" />
+            </Array>
+            <mxPoint x="1020" y="830" as="sourcePoint" />
+            <mxPoint x="1599.5" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-205" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#E4FDE1;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot; style=&quot;color: light-dark(rgb(8, 9, 8), rgb(0, 0, 0));&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;202 Accepted&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt; (Бэкенд не ждет, он просто кинул в очередь и забыл)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="1020" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-207" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Redis queue&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="1600" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-208" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" value="WORKER" vertex="1">
+          <mxGeometry height="80" width="120" x="2080" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-209" edge="1" parent="1" style="endArrow=none;endFill=0;html=1;align=left;verticalAlign=top;rounded=0;startArrow=blockThin;startFill=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Раз в 10 секунд забирает пачку логов&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1868.5" y="810" />
+            </Array>
+            <mxPoint x="1700" y="810" as="sourcePoint" />
+            <mxPoint x="2080" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-210" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-209" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="10" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-213" edge="1" parent="1" source="2g7fAVNn1hhI9duUfhxG-208" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="2140" y="890" />
+            </Array>
+            <mxPoint x="2010" y="930" as="sourcePoint" />
+            <mxPoint x="2010" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-214" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#E4FDE1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot; style=&quot;color: light-dark(rgb(8, 9, 8), rgb(0, 0, 0));&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;BATCH INSERT (запись пачкой)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="210" x="2010" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-224" edge="1" parent="1" source="2g7fAVNn1hhI9duUfhxG-1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=none;endFill=0;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;startArrow=classic;startFill=1;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="420" />
+            </Array>
+            <mxPoint x="1350" y="490" as="sourcePoint" />
+            <mxPoint x="1580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-225" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);fontSize=11;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;JSON {settings, reviews_list}&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="1380" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-226" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);fontSize=11;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;200 OK (Данные виджета)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="150" x="1020" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-227" edge="1" parent="1" style="endArrow=none;endFill=0;html=1;align=left;verticalAlign=top;rounded=0;startArrow=blockThin;startFill=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="2g7fAVNn1hhI9duUfhxG-1" value="">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="420" as="sourcePoint" />
+            <mxPoint x="1269.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-228" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-227" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="&lt;div&gt;4&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-229" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Backend ставит&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Distributed Lock&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;&amp;nbsp;на ID:XYZ&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="1740" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-230" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;SELECT * FROM widgets JOIN reviews ...&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="1380" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-231" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" target="2g7fAVNn1hhI9duUfhxG-20" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1380" y="531.79" as="sourcePoint" />
+            <mxPoint x="1540" y="531.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-232" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Результат запроса&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="110" x="1380" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-233" edge="1" parent="1" style="fontSize=12;html=1;endArrow=none;endFill=0;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;startArrow=openThin;startFill=0;" target="2g7fAVNn1hhI9duUfhxG-20" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1380" y="580" as="sourcePoint" />
+            <mxPoint x="1540" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-234" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;SET widget_bundle:XYZ (срок жизни 1 час)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="1380" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-235" edge="1" parent="1" style="endArrow=classic;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" target="2g7fAVNn1hhI9duUfhxG-56" value="">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1551" y="620" />
+              <mxPoint x="1571" y="620" />
+            </Array>
+            <mxPoint x="1380" y="620" as="sourcePoint" />
+            <mxPoint x="1575" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-236" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-235" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-237" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-235" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;" value="6" vertex="1">
+          <mxGeometry relative="1" x="-0.984" y="11" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-239" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" target="2g7fAVNn1hhI9duUfhxG-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="680" />
+              <mxPoint x="1490" y="750" />
+            </Array>
+            <mxPoint x="1380" y="680" as="sourcePoint" />
+            <mxPoint x="1540" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-240" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;div&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Backend снимает&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Distributed Lock&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;и отдает данные всем, кто ждал&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="1500" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-241" edge="1" parent="1" style="endArrow=none;endFill=0;html=1;align=left;verticalAlign=top;rounded=0;startArrow=blockThin;startFill=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" value="">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1020" y="750" as="sourcePoint" />
+            <mxPoint x="1380" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-242" connectable="0" parent="2g7fAVNn1hhI9duUfhxG-241" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#E4FDE1;" value="&lt;div&gt;4&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-243" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);fontSize=11;" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;200 OK (Данные виджета)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="150" x="1020" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-245" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0.573;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-208" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="2260" y="809" />
+              <mxPoint x="2260" y="660" />
+              <mxPoint x="2149" y="660" />
+            </Array>
+            <mxPoint x="2200" y="809.44" as="sourcePoint" />
+            <mxPoint x="2150" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-246" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=light-dark(#080908,#000000);" value="&lt;span class=&quot;router-outlet-wrapper ng-tns-c211619364-0&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot;&gt;Ждет 10 секунд ИЛИ пока в буфере &amp;lt; 1000 записей&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="2130" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="2g7fAVNn1hhI9duUfhxG-168" edge="1" parent="1" source="2g7fAVNn1hhI9duUfhxG-149" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="2g7fAVNn1hhI9duUfhxG-89" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1280" />
+            </Array>
+            <mxPoint x="1090" y="1260" as="sourcePoint" />
+            <mxPoint x="1240" y="1259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GWoL7yG_oH9PJL1tv97o" name="Страница-2">
+    <mxGraphModel dx="1030" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
